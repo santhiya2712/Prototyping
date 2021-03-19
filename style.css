@@ -1,0 +1,273 @@
+header{
+    
+    display: flex;
+    align-items: center;
+    padding: 30px; 
+}
+.imgContainer{
+    background: url(image/Gradient.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo
+{   
+    cursor: pointer;
+    width: 246px;
+    height: 78px;
+    padding: 0px 20px;
+    margin-left: 12%;
+}
+ul{ 
+    list-style-type: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height:27px;
+    letter-spacing: 0.2px;
+    color:white;
+    padding-right: 40px;
+}
+ul li{
+    display: inline;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#text {
+ padding: 19px 39px;
+color: black;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.1px;
+}
+
+.input{
+    background: #EFEFEF;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 39px;
+    Width: 273px;
+    Height: 54px;
+}
+.button {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: #2091F9;
+}
+.master{
+    margin-left: 10px;
+    align-items: center;
+    padding: 19px 38px;
+    background: #FFFFFF;
+    border-radius: 35px;   
+    border: 2px solid white; 
+}
+.container1{
+    position: relative;
+    margin-top: 71px;
+}
+.textcontent{
+   
+    margin-top: 90px;
+    margin: auto;
+    width: 628px;
+    text-align: center;
+}
+.textcontent h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    margin-bottom:  -20px;
+    color: #FFFFFF;
+}
+.textcontent h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 65px;
+    margin-bottom:  20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+.textcontent h4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.button2{
+    margin-top: 50px;
+    background: #FFFFFF;
+    align-items: center;
+    border-radius: 35px;
+    padding: 16px 0px 16px 0px;
+    width: 236px;
+    height: 65px;
+    border: 2px solid white;
+}
+.masterbtn{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #2091F9;
+}
+.screenmask{
+    margin: auto;
+    width: 71%;
+    margin-top: 3%;
+    padding: auto;
+    }
+    .feature{
+     
+      padding: 0px;
+      background: #FFFFFF;
+      margin-top: 10%;
+}
+        
+    .content{
+      
+      margin: auto;
+      width: 300px;
+      text-align: center;
+      margin-top: 28px;
+}
+
+.content h4{
+  font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #374754;
+    
+    }
+    .content h2{
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 46px;
+      line-height: 57px;
+      letter-spacing: 0.2px;
+      color: #252B42;
+    }
+    .content .features h3 {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 33px;
+      text-align: center;
+      letter-spacing: 0.1px;
+      color:#252B42;
+     }
+     .box{
+      border: 1px solid;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0px;
+     }
+    .media{
+      width: 62%;
+      border: 1px solid yellow;
+     }
+     .items{
+      border: 1px solid yellow;
+     }
+   
+     p{
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 27px;
+      letter-spacing: 0.2px;
+      color: #374754;
+     }
+
+     .lightning{
+        background: linear-gradient(39.97deg, #00F3B9 0.79%, #2187FF 79.29%);
+        background-repeat: no-repeat;
+        background-size: cover;
+        Width: auto;
+        Height: 516px;
+        padding-top: 33px;
+     }
+    
+     .button3{
+        background: transparent;
+        margin-top: 50px;
+        align-items: center;
+        border-radius: 35px;
+        padding: 16px 0px 16px 0px;
+        width: 236px;
+        height: 65px;
+        border: 2px solid white;
+        color: white;
+     }
+     .lightcta{
+			 
+			 border: 1px solid;
+			display: flex;
+			width: auto;
+			height: 500px;
+			background: #FFFFFF;
+			padding: 100px 100px;
+		 }
+		 .button4 {
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 16px;
+			line-height: 16px;
+			letter-spacing: 0.2px;
+			color: white;
+			background: #2091F9;
+	}
+ .partner{
+	border: 1px solid;
+	 height: 500px;
+	 background: #FFFFFF;
+ }
+	.partner1 {
+			margin: auto;
+			width: 300px;
+			border: 1px solid;
+			text-align: center;
+ }
+
+.button4{
+	align-self: center;
+	border-radius: 35px;
+	padding: 16px 0px 16px 0px;
+	width: 236px;
+	height: 65px;
+	background: #2091F9;
+	border: 2px solid  #2091F9; 
+}
