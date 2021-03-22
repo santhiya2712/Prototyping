@@ -308,7 +308,8 @@ letter-spacing: 0.1px;
 	 display: flex;
 	 flex-wrap: wrap	;
 	 justify-content: center;
-	 space-around:
+	 margin: 30px;
+	
  }
  .col{
 	 box-shadow: white;
