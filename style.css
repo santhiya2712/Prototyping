@@ -285,26 +285,23 @@ letter-spacing: 0.1px;
 
  }
  .testimonials{
-	 padding: 40px 0;
+     
+	 width: auto;
 	 background: white;
-	 color: black;
-	 text-align: center;
+     height: 1221.4px;
+     text-align: center;
+	 
 
  }
- .inner{
+ /* .inner{
 	 max-width: 75%;
 	 margin: auto;
 	 overflow: hidden;
 	 padding: 0 20px;
- }
- .border{
-	 border: 1px solid burlywood;
-	 width: 160px;
-	 height: 5px;
-	 background: white;
-	margin: 26px auto;
- }
+ } */
+
  .row{
+     ;
 	 display: flex;
 	 flex-wrap: wrap	;
 	 justify-content: center;
@@ -312,19 +309,19 @@ letter-spacing: 0.1px;
 	
  }
  .col{
-	 box-shadow: white;
-	 border: 1px solid wheat;
-	 flex: 33.33%;
-	box-sizing: border-box;
-	max-width: 33%;
+    max-width: 21%;
+    margin: 40px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    box-sizing: border-box;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
 	
  }
  .testimonial{
-	 background: white;
-	 padding: 30px;
-  
-	 
+     padding: 26px;
  }
+ 
  .testimonial img{
 	 width: 100px;
 	 height: 100px;
@@ -335,6 +332,158 @@ letter-spacing: 0.1px;
  }
  .stars{
 	 color: orange;
-	 margin-bottom: 20px;
-
  }
+ .pricing{
+    width: auto;
+    height: 460px;
+    background: #252B42;
+    padding: 30px;
+ }
+.price{
+    width: auto;
+    display: flex;
+	flex-direction: row;
+	justify-content: center;
+    justify-content: space-around;
+    margin: 30px;
+    padding: 44px;
+}
+.price1{
+    
+    max-width: 28%;
+    margin-left: 160px;
+}
+.price2{
+    
+    max-width: 21%;
+    margin: 40px;
+}
+.price1 h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 65px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.price1 p{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: 0.2px;
+color: #FFFFFF;
+}
+.price2 h4{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0.2px;
+color: #FFFFFF;
+}
+
+.align1{
+    padding: 20px;
+}
+#button{
+width: 159px;
+height: 52px;
+align-items: center;
+padding: 18px 38px;
+background: #2091F9;
+border: 2px solid  #2091F9; 
+border-radius: 35px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+
+letter-spacing: 0.2px;
+color: #FFFFFF;
+}
+
+.contactus{
+    border: 1px solid   yellow;
+    width: auto;
+    height: 1815.17px;
+    background-color:white;
+}
+.contact{
+    text-align: center;
+    margin: auto;
+    width: 300px;
+    padding-top: 93px;
+}
+.social img{
+    padding: 20px;
+}
+.map{  
+    border: 1px solid   yellow;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 871px;
+    height: 323.19px;
+    padding: 31px 5px 10px 5px;
+}
+.item {
+    border: 1px solid   yellow;
+    margin-top: 2%;
+    text-align: center;
+}
+.contactdetails{
+    display: block;
+    border: 1px solid   yellow;
+    margin-top: 3%;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    padding: 10px
+}
+. details{
+    border: 2px solid   yellow;
+   
+
+}
+#input{
+    padding: 19px 20px;
+    width: 768px;
+height: 54px;
+    background: #F5F5F5;
+border: 1px solid #E8E8E8;
+box-sizing: border-box;
+border-radius: 39px;
+}
+#message{
+    background: #F5F5F5;
+border: 1px solid #E8E8E8;
+box-sizing: border-box;
+width: 768px;
+height: 193px;
+
+}
+#button1{
+    
+        width: 159px;
+        height: 52px;
+        
+        padding: 18px 38px;
+        background: #2091F9;
+        border: 2px solid  #2091F9; 
+        border-radius: 35px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+        
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+    
+}
