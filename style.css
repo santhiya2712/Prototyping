@@ -330,6 +330,20 @@ letter-spacing: 0.1px;
  .stars{
 	 color: orange;
  }
+
+ .button7{
+    border-radius: 35px;
+	padding: 16px 0px 16px 0px;
+    width: 258px;
+	height: 62px;
+    font-size: 22px;
+line-height: 33px;
+    align-items: center;
+	background: #2091F9;
+	border: 2px solid  #2091F9; 
+    color: white;
+
+ }
  .pricing{
     width: auto;
     height: 460px;
