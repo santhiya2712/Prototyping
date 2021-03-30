@@ -3,6 +3,7 @@
   <head>
     	 <meta charset="UTF-8">
     	<title>Lightning fast prototyping</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     	<link rel="stylesheet" href="style.css">
@@ -14,18 +15,20 @@
 				<img src="image/Gradient.png">
 			</div> -->
 			<header>
-				<img class="logo" src="image\Rectangle 4.png"/>
-				<div>
-					<ul class="navbar">
+				<div class="navbar">
+					<img class="logo" src="image\Rectangle 4.png"/>
+					<ul class="nav">
 						<li>Home</li>
 						<li>Product</li>
 						<li>Pricing</li>
 						<li>About</li>
 						<li>Contact</li>
+						<li><input class="input"  id="text" type="text" placeholder="Your Email" required></li>	
+					<li><button class="master button">Subscribe</button></li>
 					</ul>
+			
 				</div>
-					<input class="input"  id="text" type="text" placeholder="Your Email" required>
-					<button class="master button">Subscribe</button>
+				
 			</header>
 			<section>
 				<div class="container1">
@@ -37,7 +40,7 @@
 						<button class="masterbtn button2">Try For Free</button>
 					</div>
 					<div class="screenmask">
-						<img  src="image/screenmask.png">
+				 <img src="image/screenmask.png" alt=" ">
 					</div>
 				</div>
 			</section>
@@ -50,7 +53,7 @@
 					<h4 >Most calendars are designed for teams. Slate is designed for freelancers</h4>
 				</div>
 			<div class="box">
-				<img class="media" src="image/screencontent.png" alt="Media">
+				<img class="media" src="image/screencontent.png" alt="media">
 				<div class="items">
 					<div class="features">
 						
@@ -83,9 +86,11 @@
 		</section>
 		<section>
 			<div class="lightcta">
-				<div>
-				<img src="image/undraw.png">
-			</div>
+				<div class="lightcontent">
+					<div class="undraw">
+						<img src="image/undraw.png" alt=" ">
+
+					</div>
 			<div class="right">
 				<h3>At your fingertips</h3>
 				<h2>Lightning fast prototypings</h2>
@@ -94,6 +99,7 @@
 				</h3>
 				<input class="input"  id="text" type="text" placeholder="Your Email" required>
 					<button class="master button4">Subsribe</button>
+				</div>
 				</div>
 			</div>
 
@@ -124,7 +130,7 @@
 			<div class="testimonials">
 				
 					<h1>Testimonials</h1>
- <div class="inner">
+         <div class="inner">
 	 
 					<div class="row">
             
@@ -241,14 +247,14 @@
 			</div>
           </div>
           <div class="price2">
-			  <div class="align1">
+			  
             <h4>30 - DAY FREE TRIAL.</h4>
             <h4><span style="font-size: 40px;">$10/</span> Month per User</h4>
             <h4>Most calendars are designed 
               for teams. 
               </h4>
-              <button id="button">Get started</button>
-			</div>
+              <button class="master button4">Get started</button>
+		  	</div>
           </div>
         </div>
       </div>
@@ -268,17 +274,31 @@
 			<div class="map">
 				<img src="image/@ map screen.png" alt=" ">
 			</div>
-					<div class="item">
-						<img src="image/block1.png" alt=" ">
-						<img src="image/block2.png" alt=" ">
-						<img src="image/block3.png" alt=" ">
-					</div>
+					<div class="address">
+            <div class="addsbox1">
+              <img src="image/bx_bx-map.png" alt=" ">
+              <h6>6386 Spring St undefined Anchorage, 
+                Georgia 12473 United States</h6>
+            </div>
+            <div class="addsbox2">
+              <img src="image/Vector (4).png" alt=" ">
+            <h6>(843) 555-0130</h6>
+            </div>
+            <div class="addsbox3">
+              <img src="image/Vector (5).png" alt=" ">
+              <h6>willie.jennings@example.com</h6>
+            </div>
+					
+          </div>
+       
+      </div>
+    
+					
 			<div class="contactdetails">
 				<h3 style="text-align: center;">Contact Us</h3>
 				<div class="detail">
-					<input id="input" type="text" placeholder="Your Name" required>
-					<input id="input" type="text" placeholder="Your Email" required>
-					
+					<input id="inputs" type="text" placeholder="Your Name" required>
+					<input id="inputs" type="text" placeholder="Your Email" required>
 					<input id="message"type="text" placeholder="Your Message" required>
 					<button id="button1">send</button>
 				</div>
