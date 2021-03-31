@@ -15,7 +15,7 @@ header{
     background-size: cover;
 }
 .navbar{
-    padding: 20px;
+    padding: 15px;
     justify-content: center;
     display: flex;
     width: 95%;
@@ -31,24 +31,25 @@ header{
    
     width: 246px;
     height: 78px;
-    padding: 0px 20px;
+    padding: 17px 20px;
 }
 
 .navbar ul li{
-    padding: 5px;
-    display: inline-block;
+    align-items: center;
+    padding: 18px;
+    display: flex;
     text-decoration: none;
 }
  .navbar ul{ 
+    align-items: center;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 14px;
     line-height:27px;
     letter-spacing: 0.2px;
     color:white;
     
 }
 #text {
-padding: 19px 39px;
 color: black;
 font-family: Roboto;
 font-style: normal;
@@ -59,6 +60,7 @@ letter-spacing: 0.1px;
 }
 
 .input{
+    padding: 19px 39px;
     background: #EFEFEF;
     border: 1px solid #E8E8E8;
     box-sizing: border-box;
@@ -67,6 +69,15 @@ letter-spacing: 0.1px;
     Height: 54px;
 }
 .button {
+    
+    padding: 19px 38px;
+    background: #FFFFFF;
+    border-radius: 35px;   
+    border: 2px solid white; 
+  
+}
+.master{
+    margin-left: -23px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -74,14 +85,7 @@ letter-spacing: 0.1px;
     line-height: 16px;
     letter-spacing: 0.2px;
     color: #2091F9;
-}
-.master{
-    margin-left: 10px;
-    align-items: center;
-    padding: 19px 38px;
-    background: #FFFFFF;
-    border-radius: 35px;   
-    border: 2px solid white; 
+    
 }
 .container1{
     position: relative;
@@ -127,7 +131,7 @@ letter-spacing: 0.1px;
     color: #FFFFFF;
 }
 
-.button2{
+.button1{
     margin-top: 50px;
     background: #FFFFFF;
     align-items: center;
@@ -167,6 +171,7 @@ letter-spacing: 0.1px;
       background: #FFFFFF;
       margin-top: 10%;
 }
+    
         
     .content{
       
@@ -235,55 +240,84 @@ letter-spacing: 0.1px;
         height: 450px;
         padding-top: 33px;
      }
-    
-     .button3{
+     .twobutton{
+         margin: auto;
+         padding: 70px;
+        justify-content: space-evenly;
+        text-align: center;
+       
+    }
+     .button2{
+        padding: 16px 45px;
+        width: 200px;
+        height: 56px;
+        border: 2px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 35px; 
+        margin-left: 10px;
         background: transparent;
-        margin-top: 50px;
         align-items: center;
-        border-radius: 35px;
-        padding: 16px 0px 16px 0px;
-        width: 236px;
-        height: 65px;
-        border: 2px solid white;
-        color: white;
+     }
+
+     .text{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
      }
      .lightcta{
-        width: auto;
         
-       
-        padding: 40px;
+        height: 450px;
+        width: auto;
+        padding: 70px;
          }
          .lightcontent{
-      
-             padding: 20px;
+             justify-content: center;
              display: flex;
-             flex-direction: row;
-             align-items: center;
-           
             
+            margin: auto;
+         }
+         .undraw{
+            width: 540px;
+           
+         }
+         .undraw img{
+            width: 516px;
          }
 
-         .undraw img{
-             padding: 50px;
-            width: 55%;
-            
+         .right h2{
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 46px;
+            line-height: 57px;
+            letter-spacing: 0.2px;
+            color: #252B42;
          }
-         .right{
-             margin-left: -20px;
-         }
+      .right{
+        width: 455px;
+        
+          padding: 20px;
+      }
          
-		 .button4 {
-			font-family: Roboto;
-			font-style: normal;
-			font-weight: 500;
-			font-size: 16px;
-			line-height: 16px;
-			letter-spacing: 0.2px;
+		 .button3 {
+            margin-left: 20px;
+			border-radius: 35px;
+	    padding: 16px 0px 16px 0px;
+	    width:141px;
+	height: 62px;
+    align-items: center;
+	background: #2091F9;
+	border: 2px solid  #2091F9; 
 			color: white;
 			background: #2091F9;
 	}
  .partner{
-	 height: 500px;
+     width: auto;
+	 height: 450px;
 	 background: #FFFFFF;
  }
 	.partner1 {
@@ -292,16 +326,7 @@ letter-spacing: 0.1px;
 			text-align: center;
  }
 
-.button4{
-	
-	border-radius: 35px;
-	padding: 16px 0px 16px 0px;
-	width:141px;
-	height: 62px;
-    align-items: center;
-	background: #2091F9;
-	border: 2px solid  #2091F9; 
-}
+
    .align{
    
     margin: auto;
@@ -309,7 +334,7 @@ letter-spacing: 0.1px;
     padding: 25px;
 		
  } 
-ul  {
+  ul  {
     display: flex;
     flex-direction: row;
     text-decoration: none;
@@ -319,10 +344,19 @@ ul  {
     
     padding: 30px;
  } 
- .btn{
-	margin: 1px 31% 0% 42%;
-
+ .button4{
+    border-radius: 35px;
+	padding: 16px 0px 16px 0px;
+    width: 258px;
+	height: 62px;
+    font-size: 22px;
+    line-height: 33px;
+    align-items: center;
+	background: #2091F9;
+	border: 2px solid  #2091F9; 
+    color: white;
  }
+
  .testimonials{
    
 	 width: auto;
@@ -366,19 +400,7 @@ ul  {
 	 color: orange;
  }
 
- .button7{
-    border-radius: 35px;
-	padding: 16px 0px 16px 0px;
-    width: 258px;
-	height: 62px;
-    font-size: 22px;
-    line-height: 33px;
-    align-items: center;
-	background: #2091F9;
-	border: 2px solid  #2091F9; 
-    color: white;
 
- }
  .pricing{
     width: auto;
     
@@ -396,6 +418,7 @@ ul  {
     max-width: 34%; 
 }
 .price2{
+    
     margin: 31px;
 }
 
@@ -426,19 +449,15 @@ letter-spacing: 0.2px;
 color: #FFFFFF;
 }
 
-/* .align1{
-    padding: 20px; */
-}
-#button{
+.button5{
+    margin-left: 1px;
 width: 159px;
 height: 52px;
 align-items: center;
-padding: 18px 38px;
 background: #2091F9;
 border: 2px solid  #2091F9; 
 border-radius: 35px;
 line-height: 16px;
-
 letter-spacing: 0.2px;
 color: #FFFFFF;
 }
@@ -487,15 +506,16 @@ color: #FFFFFF;
     max-width: 14%;
     padding: 13px;
 }
-
+.details{
+    margin: auto;
+    width: 44%;
+    padding: 43px;
+    
+}
    
 
 .contactdetails{
-    
-    
-    display: block; 
     margin: auto;
-    width: 53%;
     border-radius: 10px;
     background: #FFFFFF;
     border: 1px solid #DEDEDE;
@@ -504,17 +524,14 @@ color: #FFFFFF;
 	
 }
 .detail{
-    display: block;
-    
-    padding: 16px;
-    width: 93%;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 23px;
+   
 }
 
 #inputs{
 padding: 19px 20px;
-width: 547px;
-height: 54px;
 margin-bottom: 35px;
  background: #F5F5F5;
 border: 1px solid #E8E8E8;
@@ -522,11 +539,10 @@ box-sizing: border-box;
 border-radius: 39px;
 }
 #message{
-
+    padding: 20px;
     background: #F5F5F5;
     border: 1px solid #E8E8E8;
     box-sizing: border-box;
-    width: 547px;
     height: 160px;
     margin-bottom: 35px;
 
@@ -541,29 +557,34 @@ border-radius: 39px;
         border: 2px solid  #2091F9; 
         border-radius: 35px;
         color: #FFFFFF;
+        text-align: center;
     
 }
 
 .footerpage{
+   
     margin-top: 6%;
     width: auto;
     background: #252B42;
+    padding: 70px;
     
 }
 .footer{
    
-    width: 90%;
+    width: 100%;
     margin: auto;
     padding: 36px;
     
 }
 .footrow{
+   
     display: flex;
     flex-wrap: wrap;
 }
 .footcol{
+    
     width: 20%;
-    padding: 20px;
+    padding: 10px;
     
 }
  .footcol h3{
@@ -582,9 +603,8 @@ line-height: 23px;
 letter-spacing: 0.2px;
 color: #FFFFFF;
 }
- dl{
-     list-style-type: none;
- }
+
+
 .list{
 padding: 1%;
 font-family: Roboto;
@@ -607,4 +627,9 @@ color: #FFFFFF;
         border: 2px solid  #2091F9;
         color: #FFFFFF; 
     }
-
+/* media query */
+@media (max-width: 1000){
+    .align{
+        display: block;
+    }
+}
