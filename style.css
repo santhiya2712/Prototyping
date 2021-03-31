@@ -302,13 +302,13 @@ letter-spacing: 0.1px;
         
           padding: 20px;
       }
-         
+    
 		 .button3 {
             margin-left: 20px;
 			border-radius: 35px;
 	    padding: 16px 0px 16px 0px;
-	    width:141px;
-	height: 62px;
+	        width:141px;
+	    height: 62px;
     align-items: center;
 	background: #2091F9;
 	border: 2px solid  #2091F9; 
