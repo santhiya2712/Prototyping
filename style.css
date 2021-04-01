@@ -40,7 +40,12 @@ header{
     display: flex;
     text-decoration: none;
 }
- .navbar ul{ 
+.navbar ul li a{
+    text-decoration: none;
+
+}
+
+ .navbar ul a{ 
     align-items: center;
     font-weight: normal;
     font-size: 14px;
@@ -253,7 +258,7 @@ background: #EFEFEF;
      }
      .twobutton{
          margin: auto;
-         padding: 70px;
+         padding: 7px;
         justify-content: space-evenly;
         text-align: center;
        
@@ -437,9 +442,14 @@ color: #252B42;
  .msg{
 	 margin: 20px 0;
  }
- .stars{
-	 color: orange;
+ .stars {
+    
+    color: orange;
+
  }
+ /* .checked{
+	 color: orange;
+ } */
 @media screen and (max-width:960){
     .col{
         flex: 100%;
