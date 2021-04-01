@@ -57,16 +57,14 @@ font-weight: normal;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.1px;
+background: #EFEFEF;
 }
 
 .input{
     padding: 19px 39px;
-    background: #EFEFEF;
     border: 1px solid #E8E8E8;
     box-sizing: border-box;
     border-radius: 39px;
-    Width: 273px;
-    Height: 54px;
 }
 .button {
     
@@ -89,11 +87,11 @@ letter-spacing: 0.1px;
 }
 .container1{
     position: relative;
-    margin-top: 100px;
+    padding: 108px 0 0px 0px;
 }
 .textcontent{
    
-    margin-top: 90px;
+    
     margin: auto;
     
     text-align: center;
@@ -132,7 +130,6 @@ letter-spacing: 0.1px;
 }
 
 .button1{
-    margin-top: 50px;
     background: #FFFFFF;
     align-items: center;
     border-radius: 35px;
@@ -142,6 +139,7 @@ letter-spacing: 0.1px;
     border: 2px solid white;
 }
 .masterbtn{
+    margin-top: 50px;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -151,14 +149,11 @@ letter-spacing: 0.1px;
     letter-spacing: 0.1px;
     color: #2091F9;
 }
-
-
  .screenmask{
    
     margin: 13%;
-    padding: 50px;
-    width: auto;
-    height: auto;
+    padding: 12px;
+ 
     } 
     .screenmask img{
         width: 100%;
@@ -166,19 +161,17 @@ letter-spacing: 0.1px;
     }
 
     .feature{
-     
       padding: 0px;
       background: #FFFFFF;
-      margin-top: 10%;
+     
 }
     
-        
     .content{
       
       margin: auto;
       width: 300px;
       text-align: center;
-      margin-top: 28px;
+      
 }
 
 .content h4{
@@ -215,12 +208,30 @@ letter-spacing: 0.1px;
         
       display: flex;
       flex-direction: row;
-      align-items: center;
+        align-items: center;
       padding: 0px;
      }
+
     .media{
-      width: 62%;
+      width: 151%;
      }
+     .media img{
+         width: 100%;
+     }
+     .items{
+         padding: 35px;
+       
+     }
+     .features1{
+         display: flex;
+         flex-direction: row;
+         padding: 2px;
+
+     }
+     .features1 img{
+        width: 20%;
+        padding-right: 12px;
+     }  
  
      p{
       font-family: Roboto;
@@ -305,29 +316,47 @@ letter-spacing: 0.1px;
 		 .button3 {
             margin-left: 20px;
 			border-radius: 35px;
-	    padding: 16px 0px 16px 0px;
-	        width:141px;
-	    height: 62px;
-    align-items: center;
-	background: #2091F9;
-	border: 2px solid  #2091F9; 
+            padding: 19px 49px;
+        align-items: center;
+	    background: #2091F9;
+	    border: 2px solid  #2091F9; 
 			color: white;
 			background: #2091F9;
 	}
- .partner{
+ .partners{
      width: auto;
-	 height: 450px;
+	 padding: 30px;
 	 background: #FFFFFF;
  }
-	.partner1 {
+	.partner {
 			margin: auto;
-			width: 300px;
+			
 			text-align: center;
+ }
+ .partnertext h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 46px;
+    line-height: 57px;
+    /* identical to box height, or 124% */
+    
+    text-align: center;
+    letter-spacing: 0.2px;
+    
+    /* text */
+    
+    color: #252B42;
+
  }
 
 
+.partnertext{
+    width: 300px;
+    margin: auto;
+}
+
    .align{
-   
     margin: auto;
     justify-content: center;
     padding: 25px;
@@ -361,9 +390,22 @@ letter-spacing: 0.1px;
 	 width: auto;
 	 background: white;
      text-align: center;
-     margin-bottom: 6%;
+    padding: 86px 0;
  }
 
+.testimonials h1{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+    font-size: 46px;
+line-height: 57px;
+
+
+text-align: center;
+letter-spacing: 0.2px;
+
+color: #252B42;
+}
 
  .row{
      
@@ -375,7 +417,7 @@ letter-spacing: 0.1px;
  }
  .col{
     max-width: 21%;
-    margin: 40px;
+    margin: 35px;
     border-radius: 10px;
     background: #FFFFFF;
     border: 1px solid #DEDEDE;
@@ -398,13 +440,24 @@ letter-spacing: 0.1px;
  .stars{
 	 color: orange;
  }
-
+@media screen and (max-width:960){
+    .col{
+        flex: 100%;
+        max-width: 80%;
+    }
+}
+@media screen and (max-width:600){
+    .col{
+        flex: 100%;
+        max-width: 100%;
+    }
+}
 
  .pricing{
     width: auto;
     
     background: #252B42;
-    padding: 30px;
+    padding: 80px;
  }
 .price{
     width: auto;
@@ -462,16 +515,31 @@ color: #FFFFFF;
 }
 
 .contactus{
-    margin-bottom: 3%;
+    padding: 50px 0;
     width: auto;
     background-color:white;
 }
+.contactus h2{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+    font-size: 46px;
+line-height: 57px;
+
+
+text-align: center;
+letter-spacing: 0.2px;
+
+color: #252B42;
+
+}
+
 .contact{
    
     text-align: center;
     margin: auto;
-    width: 300px;
-    padding-top: 93px;
+    width: 350px;
+    
 }
 .social img{
     padding: 20px;
@@ -507,7 +575,7 @@ color: #FFFFFF;
 }
 .details{
     margin: auto;
-    width: 44%;
+    width: 50%;
     padding: 43px;
     
 }
@@ -548,16 +616,17 @@ border-radius: 39px;
 
 }
 #button1{
-    
-        width: 159px;
-        height: 52px;
-        padding: 18px 38px;
-        background: #2091F9;
-        border: 2px solid  #2091F9; 
-        border-radius: 35px;
-        color: #FFFFFF;
-        text-align: center;
-    
+    width: 159px;
+    height: 52px;
+    align-items: center;
+    background: #2091F9;
+    border: 2px solid #2091F9;
+    border-radius: 35px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
 }
 
 .footerpage{
@@ -615,16 +684,24 @@ letter-spacing: 0.2px;
 color: #FFFFFF;
 }
 .button6{
-    
-        margin-top: 3%;
-        border-radius: 35px;
-        padding: 16px 0px 16px 0px;
-        width: 274px;
-        height: 50px;
-        align-items: center;
-        background: #2091F9;
-        border: 2px solid  #2091F9;
-        color: #FFFFFF; 
+    padding: 19px 95px;
+    border: 1px solid #2091F9;;
+    box-sizing: border-box;
+    background: #2091F9;
+border-radius: 35px;
+
+    }
+
+    .text{
+        margin-top: 5%;
+        text-align: center;
+        font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
     }
 /* media query */
 @media (max-width: 1000){
