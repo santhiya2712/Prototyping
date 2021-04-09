@@ -33,6 +33,14 @@ header{
     height: 78px;
     padding: 17px 20px;
 }
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
 
 .navbar ul li{
     align-items: center;
@@ -286,7 +294,7 @@ background: #EFEFEF;
      }
      .lightcta{
         
-        height: 450px;
+       
         width: auto;
         padding: 70px;
          }
@@ -362,47 +370,43 @@ background: #EFEFEF;
 }
 
    .align{
+    display: flex;
+    list-style-type: none;
     margin: auto;
     justify-content: center;
     padding: 25px;
 		
  } 
-  ul  {
-    display: flex;
-    flex-direction: row;
-    text-decoration: none;
-    list-style-type: none;
- }
  .arrange{
     
-    padding: 30px;
- } 
- .button4{
-    border-radius: 35px;
-	padding: 16px 0px 16px 0px;
-    width: 258px;
-	height: 62px;
-    font-size: 22px;
-    line-height: 33px;
-    align-items: center;
-	background: #2091F9;
-	border: 2px solid  #2091F9; 
-    color: white;
- }
+  padding: 30px;
+} 
+.button4{
+  border-radius: 35px;
+padding: 16px 0px 16px 0px;
+  width: 258px;
+height: 62px;
+  font-size: 22px;
+  line-height: 33px;
+  align-items: center;
+background: #2091F9;
+border: 2px solid  #2091F9; 
+  color: white;
+}
 
- .testimonials{
-   
-	 width: auto;
-	 background: white;
-     text-align: center;
-    padding: 86px 0;
- }
+.testimonials{
+ 
+ width: auto;
+ background: white;
+   text-align: center;
+  padding: 86px 0;
+}
 
 .testimonials h1{
-    font-family: Roboto;
+  font-family: Roboto;
 font-style: normal;
 font-weight: normal;
-    font-size: 46px;
+  font-size: 46px;
 line-height: 57px;
 
 
@@ -412,90 +416,79 @@ letter-spacing: 0.2px;
 color: #252B42;
 }
 
- .row{
-     
-	 display: flex;
-	 flex-wrap: wrap;
-	 justify-content: center;
-	 margin: 30px;
-	
- }
- .col{
-    max-width: 21%;
-    margin: 30px;
-    border-radius: 10px;
-    background: #FFFFFF;
-    border: 1px solid #DEDEDE;
-    box-sizing: border-box;
-    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
-	
- }
- .testimonial{
-     padding: 26px;
- }
- 
- .testimonial img{
-	 width: 100px;
-	 height: 100px;
-	 border-radius: 50%; 
- }
- .msg{
-	 margin: 20px 0;
- }
- .stars {
-    
-    color: orange;
+.row{
+   
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ margin: 30px;
 
- }
- /* .checked{
-	 color: orange;
- } */
-@media screen and (max-width:960){
-    .col{
-        flex: 100%;
-        max-width: 80%;
-    }
 }
-@media screen and (max-width:600){
-    .col{
-        flex: 100%;
-        max-width: 100%;
-    }
+.col{
+  max-width: 21%;
+  margin: 30px;
+  border-radius: 10px;
+  background: #FFFFFF;
+  border: 1px solid #DEDEDE;
+  box-sizing: border-box;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+
+}
+.testimonial{
+   padding: 26px;
 }
 
- .pricing{
-    width: auto;
-    
-    background: #252B42;
-    padding: 80px;
- }
+.testimonial img{
+ width: 100px;
+ height: 100px;
+ border-radius: 50%; 
+}
+.msg{
+ margin: 20px 0;
+}
+.stars {
+  
+  color: orange;
+
+}
+/* .checked{
+ color: orange;
+} */
+
+
+
+.pricing{
+  width: auto;
+  
+  background: #252B42;
+  padding: 80px;
+}
 .price{
-    width: auto;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    padding: 33px;
+  width: auto;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 33px;
 }
 .price1{
-    max-width: 31%; 
+  max-width: 31%; 
 }
 .price2{
-    
-    margin: 31px;
+  
+  margin: 31px;
 }
 
 .price1 h1{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 50px;
-    line-height: 65px;
-    letter-spacing: 0.2px;
-    color: #FFFFFF;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 65px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
 }
 
 .price1 p{
-    font-family: Roboto;
+  font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
@@ -504,7 +497,7 @@ letter-spacing: 0.2px;
 color: #FFFFFF;
 }
 .price2 h4{
- 
+
 font-size: 16px;
 line-height: 20px;
 letter-spacing: 0.2px;
@@ -512,7 +505,7 @@ color: #FFFFFF;
 }
 
 .button5{
-    margin-left: 1px;
+  margin-left: 1px;
 width: 159px;
 height: 52px;
 align-items: center;
@@ -525,15 +518,15 @@ color: #FFFFFF;
 }
 
 .contactus{
-    padding: 50px 0;
-    width: auto;
-    background-color:white;
+  padding: 50px 0;
+  width: auto;
+  background-color:white;
 }
 .contactus h2{
-    font-family: Roboto;
+  font-family: Roboto;
 font-style: normal;
 font-weight: normal;
-    font-size: 46px;
+  font-size: 46px;
 line-height: 57px;
 
 
@@ -545,135 +538,135 @@ color: #252B42;
 }
 
 .contact{
-   
-    text-align: center;
-    margin: auto;
-    width: 350px;
-    
+ 
+  text-align: center;
+  margin: auto;
+  width: 350px;
+  
 }
 .social img{
-    padding: 20px;
+  padding: 20px;
 }
 .map {  
-    text-align: center;
-    padding: 20px;
-    
-    margin: auto;;  
+  text-align: center;
+  padding: 20px;
+  
+  margin: auto;;  
 }
 .map img{
-    width: 54%;
+  width: 54%;
 }
 .address{
-    display: flex;
-    justify-content: center;
-    margin: auto;
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
 .addsbox1{
-    text-align: center;
-    padding: 5px;
-    width: 17%;
+  text-align: center;
+  padding: 5px;
+ max-width: 15%;
 }
 .addsbox2{
-    text-align: center;
-    max-width: 14%;
-    padding: 7px;
+  text-align: center;
+  max-width: 26%;
+  padding: 7px;
 }
 .addsbox3{
-    text-align: center;
-    max-width: 14%;
-    padding: 13px;
+  text-align: center;
+  max-width: 26%;
+  padding: 13px;
 }
 .details{
-    margin: auto;
-    width: 50%;
-    padding: 43px;
-    
+  margin: auto;
+  width: 50%;
+  padding: 43px;
+  
 }
-   
+ 
 
 .contactdetails{
-    margin: auto;
-    border-radius: 10px;
-    background: #FFFFFF;
-    border: 1px solid #DEDEDE;
-    box-sizing: border-box;
-    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
-	
+  margin: auto;
+  border-radius: 10px;
+  background: #FFFFFF;
+  border: 1px solid #DEDEDE;
+  box-sizing: border-box;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+
 }
 .detail{
-    display: flex;
-    flex-direction: column;
-    padding: 23px;
-   
+  display: flex;
+  flex-direction: column;
+  padding: 23px;
+ 
 }
 
 #inputs{
 padding: 19px 20px;
 margin-bottom: 35px;
- background: #F5F5F5;
+background: #F5F5F5;
 border: 1px solid #E8E8E8;
 box-sizing: border-box;
 border-radius: 39px;
 }
 #message{
-    padding: 20px;
-    background: #F5F5F5;
-    border: 1px solid #E8E8E8;
-    box-sizing: border-box;
-    height: 160px;
-    margin-bottom: 35px;
+  padding: 20px;
+  background: #F5F5F5;
+  border: 1px solid #E8E8E8;
+  box-sizing: border-box;
+  height: 160px;
+  margin-bottom: 35px;
 
 
 }
 #button1{
-    width: 159px;
-    height: 52px;
-    align-items: center;
-    background: #2091F9;
-    border: 2px solid #2091F9;
-    border-radius: 35px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 16px;
-    letter-spacing: 0.2px;
-    color: #FFFFFF;
+  width: 159px;
+  height: 52px;
+  align-items: center;
+  background: #2091F9;
+  border: 2px solid #2091F9;
+  border-radius: 35px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
 }
 
 .footerpage{
-   
-    margin-top: 6%;
-    width: auto;
-    background: #252B42;
-    padding: 70px;
-    
+ 
+  margin-top: 6%;
+  width: auto;
+  background: #252B42;
+  padding: 70px;
+  
 }
 .footer{
-   
-    width: 100%;
-    margin: auto;
-    padding: 36px;
-    
+ 
+  width: 100%;
+  margin: auto;
+  padding: 36px;
+  
 }
 .footrow{
-   
-    display: flex;
-    flex-wrap: wrap;
+ 
+  display: flex;
+  flex-wrap: wrap;
 }
 .footcol{
-    
-    width: 20%;
-    padding: 10px;
-    
+  
+  width: 20%;
+  padding: 10px;
+  
 }
- .footcol h3{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 33px;
-    letter-spacing: 0.1px;
-    color: #FFFFFF;
- }
+.footcol h3{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+  color: #FFFFFF;
+}
 .footcol p{
 
 font-size: 13px;
@@ -694,28 +687,140 @@ letter-spacing: 0.2px;
 color: #FFFFFF;
 }
 .button6{
-    padding: 19px 95px;
-    border: 1px solid #2091F9;;
-    box-sizing: border-box;
-    background: #2091F9;
+  padding: 19px 95px;
+  border: 1px solid #2091F9;;
+  box-sizing: border-box;
+  background: #2091F9;
 border-radius: 35px;
 
-    }
+  }
 
-    .text{
-        margin-top: 5%;
-        text-align: center;
-        font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.1px;
-    color: #FFFFFF;
+  .text{
+      margin-top: 5%;
+      text-align: center;
+      font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #FFFFFF;
+  }
+ 
+ /* media query*/
+
+ @media screen and (max-width:750px){
+    .align {
+        
+        flex-direction: column;  
     }
-/* media query */
-@media (max-width: 1000){
-    .align{
-        display: block;
-    }
+ .row {
+    flex-direction: column;
+    align-items: center;
+    
+ }
+ .lightcontent{
+    flex-direction: column;
+    align-items: center;
+
+ }
+ .box{
+    flex-direction: column;
+    align-items: center;
+ }
+ .features1 img{
+     width:18%;
+ }
+ .col{
+     max-width: 50%  !important;
+ }
+ .testimonial{
+     max-width: 100%;
+     
+ }
+ .price{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+ }
+ .price1{
+   max-width: 75% !important;
+ }
+ .price1 h1{
+   text-align: center;
+
+ }
+ .price1 p{
+  text-align: center;
+
 }
+.button5{
+  align-items: center;
+}
+.items{
+  width: 335px;
+  
+}
+
+
+
+
+
+}   
+ @media screen and (max-width:750px){
+    .address{
+        border: 1px solid;
+        flex-direction: column; 
+        align-items: flex-start; 
+        
+    }
+    .addsbox1{
+        margin: auto;
+        border: 1px solid;
+        display: flex;
+        align-items: center;
+        max-width: 38% !important;
+    }
+    .addsbox2{
+        margin: auto;
+        border: 1px solid;
+        display: flex;
+        align-items: center;
+        max-width: 38% !important;
+    }
+    
+    .addsbox3{
+        margin: auto;
+        border: 1px solid;
+        display: flex;
+        align-items: center;
+        max-width: 38% !important;
+    }
+    .addsbox1  img {
+        padding-right: 15px;
+    }
+    .addsbox2  img {
+        padding-right: 20px;
+    }
+    .addsbox3  img {
+        padding-right: 20px;
+    }
+    .footrow{
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+    }
+    .list{
+        text-align: center;
+    }
+    .footcol{
+        text-align: center;
+
+    } 
+
+    
+
+
+
+ 
